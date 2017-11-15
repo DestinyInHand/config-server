@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ms-api-gateway
+zuul:
+  routes:
+      spring-cloud-producer: /producer/**
+      spring-cloud-consumer: /consumer/**
+  add-host-header: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8000/eureka/
