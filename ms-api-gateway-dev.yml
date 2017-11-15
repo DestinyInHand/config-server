@@ -4,7 +4,7 @@ spring:
 zuul:
   routes:
       spring-cloud-producer: /producer/**
-      spring-cloud-consumer: /consumer/**
+      spring-cloud-consumer: /xconsumer/**
   add-host-header: true
 eureka:
   client:
