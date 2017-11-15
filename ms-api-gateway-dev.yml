@@ -3,8 +3,8 @@ spring:
     name: ms-api-gateway
 zuul:
   routes:
-      spring-cloud-producer: /xproducer/**
-      spring-cloud-consumer: /xconsumer/**
+      spring-cloud-producer: /producer/**
+      spring-cloud-consumer: /consumer/**
   add-host-header: true
 eureka:
   client:
