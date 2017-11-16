@@ -1,4 +1,4 @@
-profile:Ifollowyou
+profile: Ifollowyou
 eureka:
   client:
     service-url:
